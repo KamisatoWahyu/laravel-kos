@@ -64,3 +64,18 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+create a new repository on the command line
+echo "# laravel-kos" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/KamisatoWahyu/laravel-kos.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/KamisatoWahyu/laravel-kos.git
+git branch -M main
+git push -u origin main
